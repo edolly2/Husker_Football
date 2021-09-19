@@ -1,0 +1,36 @@
+.site-brand {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem;
+}
+
+.site-brand img {
+  width: 10rem;
+  height: auto;
+}
+
+.site-brand h1 {
+  font-family: "nebraska";
+  color: var(--clr-red);
+  font-size: 4rem;
+  text-shadow: 1px 1px 1px white, -1px -1px 1px white, 1px -1px 1px white,
+    -1px 1px 1px white, 0 1px 1px white, 1px 0 1px white, 0 0 1px white,
+    0 -1px 1px white, -1px 0 1px white, 3px 3px 1px var(--clr-red),
+    -3px 3px 1px var(--clr-red), 3px -3px 1px var(--clr-red),
+    -3px -3px 1px var(--clr-red), 3px 2px 1px var(--clr-red),
+    2px 3px 1px var(--clr-red), 2px 2px 1px var(--clr-red),
+    2px -3px 1px var(--clr-red), -3px 2px 1px var(--clr-red),
+    3px -2px 1px var(--clr-red), -2px 3px 1px var(--clr-red),
+    -2px -2px 1px var(--clr-red), -3px -2px 1px var(--clr-red),
+    -2px -3px 1px var(--clr-red), -2px -1px 1px var(--clr-red),
+    -1px -2px 1px var(--clr-red), -1px 2px 1px var(--clr-red),
+    2px -1px 1px var(--clr-red), 1px -2px 1px var(--clr-red),
+    -2px 1px 1px var(--clr-red), 2px 1px 1px var(--clr-red),
+    1px 2px 1px var(--clr-red), 1px 3px 1px var(--clr-red),
+    3px 1px 1px var(--clr-red), -3px 1px 1px var(--clr-red),
+    1px -3px 1px var(--clr-red), -1px 3px 1px var(--clr-red),
+    3px -1px 1px var(--clr-red), -1px -3px 1px var(--clr-red),
+    -3px -1px 1px var(--clr-red);
+}
